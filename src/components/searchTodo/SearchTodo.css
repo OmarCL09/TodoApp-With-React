@@ -1,0 +1,16 @@
+.searchTodo-container{
+    height: 90%;
+    width: 35%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tasks-title{
+    background: linear-gradient(blue,green);
+    -webkit-background-clip: text;
+    color: transparent;  
+    font-size: 4em;
+    margin: 0;
+}
+

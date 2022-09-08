@@ -1,0 +1,25 @@
+.search-a-todo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.search-a-todo input{
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+    padding-left: 4%;
+    margin-bottom: 0%;
+}
+.searchButton{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.searchButton img{
+    width: 25px;
+    height: 25px;
+}

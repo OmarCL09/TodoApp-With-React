@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right top, #d2e5c4, #bfe1cc, #b3dbd3, #afd3d7, #b1cbd6, #aeccdb, #accce0, #abcce5, #99d8f3, #83e4fa, #6cf0fa, #5ffbf1);
+    background-repeat: no-repeat;
+    font-family: 'Work Sans', sans-serif;
+}
+#root, .App{
+    height: 100%;
+    width: 100%;
+}
+.todo-main-container{
+    width: 100%;
+    height: 93.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.search-a-todo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
