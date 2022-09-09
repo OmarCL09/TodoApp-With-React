@@ -10,7 +10,7 @@ body{
 }
 .todo-main-container{
     width: 100%;
-    height: 93.5%;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,4 +21,76 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/*Responsive for width*/
+@media (max-width:1470px){
+    .information-container h1{
+        width: 100%;
+        font-size: 2em;
+    }
+    .newTask-container-label{
+        font-size: 1.5em;
+    }
+    .newTodo-container{
+        height: 75%;
+    }
+    .information-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .searchTodo-container{
+        height: 75%;
+    }
+}
+@media (max-width:870px){
+    body{
+        height: 180vh;
+    }
+    .todo-main-container {
+        height: 160vh;
+        flex-direction: column;
+    }
+    .newTodo-container{
+        width: 65%;
+    }
+    .searchTodo-container{
+        width: 65%;
+    }
+}
+@media (max-width:470px){
+    .newTodo-container{
+        width: 100%;
+    }
+    .searchTodo-container{
+        width: 100%;
+    }
+    .tasks-title{
+        font-size: 3em;
+    }
+}
+/*Responsive for height*/
+@media (max-height:650px){
+    .newTodo-container-image{
+        width: 40%;
+        margin-left: 25%;
+    }
+}
+@media (max-height:505px){
+    .newTodo-container-image{
+        display: none;
+    }
+    .information-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+    .information-container h1{
+    }
+    .newTask-container button{
+        margin: 0 auto;
+    }
 }
