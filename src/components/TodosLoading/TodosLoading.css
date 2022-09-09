@@ -1,0 +1,28 @@
+.pre-loaders-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100px;
+}
+.pre-loading{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100px;
+    background-color: azure;
+    border-radius: 15px;
+    animation: animation 1s infinite linear;
+}
+
+@keyframes animation {
+    0%, 100%{
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 1;
+    }
+}
